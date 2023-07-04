@@ -1,21 +1,47 @@
-## Manage User and their Tasks
-This is a Python program, the purpose of this program is to manage users and its tasks.
-* Providing Loging features.
-* Added Admin facility.
-* username: admin - Use this username and password to access the admin rights.
-* Allowing options:
-  1. Registering User.
-  2. Assigning tasks.
+## User and Task Management
+This is a Python program developed to facilitate users and their tasks.
+* It includes feature for user login.
+* An Admin facility has been implemented.
+* To access admin rights, use the username-"admin" and the password-"password".
+* The program allows following options:
+  1. User Registration.
+  2. Task Assignment.
   3. Viewing all tasks.
-  4. Viewing tasked assigned to the logged-in user.
-* Generating reports.
-* Added defensive programing.
+  4. Viewing tasks assigned to the logged-in user.
+* It also generates reports.
+* Defensive programing technique has been incorporated.
 
-## Installation setup to run the file
-* Install Visual studio code to run the python file.
+## Installation Setup for Runing the File
+To run the Python file, follow these installation steps:
 
-## How the application works 
-When executing this application, the following steps are encountered.
+* Install Visual Studio Code, a popular code editor, by visiting the official website: https://code.visualstudio.com/.
+* Download the appropriate installer for your operating system (Windows, macOS, or Linux).
+* Run the installer and follow the on-screen instructions to complete the installation.
+* Launch Visual Studio Code after installation.
+* Open the folder containing the Python file you want to run.
+* Install the Python extension for Visual Studio Code. You can do this by navigating to the Extensions tab on the left sidebar, searching 
+  for "Python," and clicking on the official Python extension by Microsoft.
+* Click the "Install" button to install the Python extension.
+* Once the extension is installed, you can open your Python file and execute it using Visual Studio Code.
+* Make sure you have Python installed on your system before running the file. You can download Python from the official website: https://www.python.org/downloads/. Follow the installation instructions specific to your operating system.
+
+Note: If you already have Python installed, ensure that the Python executable is added to your system's PATH environment variable for Visual Studio Code to recognize it.
+
+## Application workflow 
+When running this application, the following steps are encountered.
+
+1. The program starts and displays a user interface or command-line interface.
+2. Users are prompted to provide their login credentials.
+3. If the user enters valid credentials, they gain access to the main functionality of the application.
+4. The main menu is displayed, showing available options such as user registration, task assignment, task viewing, and report generation.
+5. Users can choose the desired option by entering the corresponding number.
+6. If the user selects user registration, they will be prompted to provide the necessary information to register a new user.
+7. If the user selects task assignment, they will be guided through the process of assigning a task to a specific user.
+8. If the user selects task viewing, they can view all tasks or tasks assigned to them, depending on the available options.
+9. If the user chooses report generation, the program generates reports based on the available data, such as user statistics or task summaries.
+10. After completing an action, the user is returned to the main menu and can choose another option or exit the program.
+11. If the user enters invalid credentials or encounters an error, appropriate error messages are displayed.
+12. The program continues running until the user decides to exit.
 
 Step 1: To access the application, follow these steps to log in using your username and password:
 * Run the application so that you get login page.
