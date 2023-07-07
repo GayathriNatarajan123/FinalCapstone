@@ -62,7 +62,7 @@ Error message for the Wrong Login details:
 
 ## User Registration
 To add a new user to the application, follow these steps:
-* Look for an option to "r - Registering a user". Enter "r" in the command prompt.
+* Look for an option "r - Registering a user". Enter "r" in the command prompt.
 * Enter the new user's username and password.
 * Submit the form by pressing enter.
 * The application verifies if a user with the same username already exists.
@@ -74,21 +74,36 @@ To add a new user to the application, follow these steps:
 ![registering_user](https://github.com/GayathriNatarajan123/FinalCapstone/assets/125039533/ff761132-4fef-4ad1-86b9-38abe46268e0)
 
 ## Task Assignment
-Add a task to a user, provide title, description, due date for the task.
+To add a task for a user, please adhere the following steps:
+* Check for the option "a - Adding a task" in the command prompt.
+* Enter "a" to select the option for adding a task.
+* Provide the task title, description, and the due date for the task.
+* Once you have entered all the necessary details, the task will be saved, and you will receive a confirmation message stating "Task Saved successfully."
 
 ![add_task](https://github.com/GayathriNatarajan123/FinalCapstone/assets/125039533/2bb23c00-6b76-4187-aba4-32662a8ec812)
 
 ## Viewing all tasks
-View all the user's task.
+To view all the user's task, please follow for the following steps:
+* Look for the option "va - View all task" in the command prompt.
+* Enter "va" to select the option for viewing all tasks.
+* Once selected, the system will display a list of all the tasks assigned to the user.
 
 ![viewing_task](https://github.com/GayathriNatarajan123/FinalCapstone/assets/125039533/8c7b8f82-d6aa-416d-82fb-37a70eb8953b)
 
 ## Viewing tasks assigned to the logged-in user
-View logged-in user task.
+To view all the task of the logged-in user, please follow for the following steps:
+* Look for the option "vm - View my task" in the command prompt.
+* Enter "vm" to select the option for viewing tasks assigned to the logged-in user.
+* Once selected, the system will display a list of all the tasks assigned specifically to the logged-in user.
 
 ![view_user_task](https://github.com/GayathriNatarajan123/FinalCapstone/assets/125039533/b518336b-819a-4e9c-a08b-8d930a0b6469)
 
 ## Generating Task and User Statistics Reports
+To view the statistics reports of all the users and tasks, please follow these steps:
+* Look for the option "gr - Generate report" in the command prompt.
+* Enter "gr" to initiate the process of generating the reports.
+* Once selected, the system will generate two reports: "task_overview.txt" and "user_overview.txt".
+* These reports will provide detailed statistics and information about the tasks and users respectively.
 
 ![generate_report](https://github.com/GayathriNatarajan123/FinalCapstone/assets/125039533/c8263b0c-36be-46dc-ab75-479d2f1d3253)
 * Report generated for task statistics:
@@ -97,18 +112,15 @@ View logged-in user task.
   ![user_report](https://github.com/GayathriNatarajan123/FinalCapstone/assets/125039533/07da4b48-c5a1-42ea-a286-b0713facfd65)
 
 ## View User and Task Statistics Reports in the Command prompt
+To view the statistics reports of all the users and tasks directly in the command prompt, please follow these steps:
+* Look for the option "ds - Display Statistics" in the command prompt.
+* Enter "ds" to initiate the process of displaying the reports in the command prompt.
+* Once selected, the system will generate and display the statistics reports of users and tasks directly in the command prompt.
+  
 ![display_statistics](https://github.com/GayathriNatarajan123/FinalCapstone/assets/125039533/20ef445a-57f4-4918-9436-d05de17e08a1)
 
 ## Exit application
 * While in the main menu or at any point within the application, if the user decides to log out, then there is an option "e - Exit"
 * They can typically do so by entering "e" to exit the application. The application will start the process of terminating.
 ![exit](https://github.com/GayathriNatarajan123/FinalCapstone/assets/125039533/dd0e78ab-7097-444f-b433-8e47c092d099)
-
-
-
-
-
-
-
-
 
